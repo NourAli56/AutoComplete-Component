@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300&family=Open+Sans&family=Oswald:wght@300&family=Roboto+Condensed&family=Roboto:wght@300&family=Schibsted+Grotesk&family=Tilt+Neon&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Schibsted Grotesk', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #fafafa;
+  position: relative;
+  width: 100% !important;
+}
+
+:root {
+  --size: 40px;
+  --speed: 3s;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 6px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px #cdcdcd;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #cdcdcd;
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #cdcdcd;
+}
+.auto-completed{
+  width: 30%;
+  margin: 0px auto;
+  padding-top: 170px;
+}
+.auto-completed-input {
+  width: 100%;
+  border: none;
+  outline: none;
+  border: 2px solid #4eb5e5;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: transparent;
+}
+.result-list{
+  width: 105%;
+  border: 1px solid #ccc;
+  max-height: 200px;
+  overflow-y: auto;
+  list-style-type: none;
+  margin-top: 10px;
+  padding: 0px;
+  border-radius: 5px;
+}
+.result-list li{
+  cursor: pointer;
+}
+.div-auto-icon{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.div-auto-icon span{
+  font-weight: 500;
+  margin: 10px 0px;
+  font-size: 20px;
+}
+.auto-icon{
+  width: 130px;
+  height: 130px;
+}
